@@ -1,0 +1,99 @@
+/* Principal */
+.titulo-cars {
+    font-family: magneto;
+    color: red;
+    font-size: 65px;
+}
+
+/* Colores */
+#ColorAzul {
+    color: blue;
+}
+
+.ColorVerde {
+    color: green;
+}
+
+#ColorNaranja {
+    color: orange;
+}
+
+.ColorRosa {
+    color: pink;
+}
+
+#ColorRojo {
+    color: red;
+}
+
+#ColorMorado {
+    color: purple;
+}
+
+.ColorAmarillo {
+    color: yellow;
+}
+
+/* Fondo */
+#ColorFondo {
+    background-color: gray;
+}
+
+#FondoAzul {
+    background-color: lightblue;
+}
+
+.FondoVerde {
+    background-color: lightgreen;
+}
+
+/* Estilos de fuente */
+.cursiva {
+    font-family: cursive;
+}
+
+.fantasy {
+    font-family: fantasy;
+}
+
+.monospace {
+    font-family: monospace;
+}
+
+.sans-serif {
+    font-family: sans-serif;
+}
+
+.magneto-bold {
+    font-family: magneto-bold;
+}
+
+/* Tamaños de texto */
+.tamañoPequeño {
+    font-size: small;
+}
+
+.tamañoMediano {
+    font-size: medium;
+}
+
+.tamañoGrande {
+    font-size: large;
+}
+
+.tamañoExtraGrande {
+    font-size: x-large;
+}
+
+/* Estilos adicionales */
+.textoNegrita {
+    font-weight: bold;
+}
+
+.textoSubrayado {
+    text-decoration: underline;
+}
+
+.textoCentrado {
+    text-align: center;
+}
