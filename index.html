@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Cars</title>
-    <link rel="stylesheet" href="M4UF1pt4_marc_delbarco_valls.css">
+    <link rel="stylesheet" href="/CSS/M4UF1pt4_marc_delbarco_valls.css">
     <style>
         .logo-peli {
             text-align: center;
@@ -19,7 +19,27 @@
             margin-left: auto;
             margin-right: auto;
         }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: black;
+            padding: 5px 10px;
+        }
+
+        nav a:hover {
+            color: blue;
+        }
     </style>
+</head>
+<body id="ColorFondo">
+
     <header>
         <nav>
             <a href="#inici">Inici</a>
@@ -35,13 +55,11 @@
 <body id="ColorFondo">
 
     <div class="logo-peli">
-        <img src="LOGO.png" alt="Logo de la pel·lícula" style="width: 300px; height: 200px;">
+        <img src="/FOTOS_VIDEOS/LOGO.png" alt="Logo de la pel·lícula" style="width: 300px; height: 200px;">
     </div>
     
     <h1 class="titulo-cars">Cars</h1> 
     <p>Cars és una pel·lícula d'animació de Disney-Pixar que segueix Lightning McQueen, un cotxe de curses que, després d'un accident, acaba en un petit poble anomenat Radiator Springs. Allà coneix nous amics i aprèn a valorar la companyonia i els valors per sobre de guanyar a les curses.</p>
-
-    
 
     <h2>Personatges Principals</h2>
     <ul>
@@ -76,18 +94,23 @@
         </tr>
     </table>
 
-    <h3 id="mcqueen">Lightning McQueen</h3>
-    <p>Un cotxe de carreres ràpid i competitiu, que aprèn a ser un millor persona.</p>
+    <h1>Personatges principals</h1>
 
-    <h3 id="mate">Mate</h3>
-    <p>Mate és una grua simpàtica i millor amic de Lightning.</p>
+    <h3 id="mcqueen">Lightning McQueen</h3>
+    <p>Un joven y ambicioso coche de carreras que sueña con ganar la Copa Pistón. Es muy rápido y competitivo, pero también un poco arrogante al principio.</p>
+
+    <h3 id="Mate">Mate</h3>
+    <p>Una vieja grúa oxidada y un poco torpe, pero con un corazón enorme. Es el mejor amigo de Rayo y le enseña el verdadero significado de la amistad.</p>
 
     <h3 id="sally">Sally</h3>
-    <p>Sally és una Porsche que viu a Radiator Springs i estima el poble.</p>
-    <!-- Contingut de la pel·lícula -->
+    <p>Un elegante Porsche 911 que es la abogada de Radiator Springs. Es inteligente, amable y tiene un gran sentido del humor.</p>
+
+    <h3 id="Doc Hudson">Doc Hudson</h3>
+    <p>Un legendario coche de carreras retirado que vive en Radiator Springs. Es sabio y experimentado, y ayuda a Rayo a descubrir su verdadero potencial.</p>
+
+
     <main>
 
-        <!-- Secció Presentació de la Pel·lícula -->
         <section id="presentacio">
             <h2>Presentació de la Pel·lícula</h2>
             <p><strong>Cars</strong> és una pel·lícula d'animació de Disney-Pixar que segueix Lightning McQueen, un cotxe de curses que, després d'un accident, acaba en un petit poble anomenat Radiator Springs. Allà coneix nous amics i aprèn a valorar la companyonia i els valors per sobre de guanyar a les curses.</p>
@@ -98,44 +121,91 @@
             <p><strong>Classificació:</strong> Apta per a tots els públics</p>
         </section>
 
-        <!-- Article Actors -->
         <article id="actors">
             <h2>Actors Principals</h2>
-            <p><strong>Lightning McQueen:</strong> Owen Wilson</p>
-            <p><strong>Mate:</strong> Larry the Cable Guy</p>
-            <p><strong>Sally Carrera:</strong> Bonnie Hunt</p>
-            <p><strong>Doc Hudson:</strong> Paul Newman</p>
+            <ul>
+                <li>
+                    <strong>Lightning McQueen:</strong> Owen Wilson
+                    <ul>
+                        <li>Marley & Me (2008)</li>
+                        <li>Zoolander (2001)</li>
+                        <li>The Royal Tenenbaums (2001)</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Mate:</strong> Larry the Cable Guy
+                    <ul>
+                        <li>Delta Farce (2007)</li>
+                        <li>Blue Collar Comedy Tour: The Movie (2003)</li>
+                        <li>Cars 2 (2011)</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Sally Carrera:</strong> Bonnie Hunt
+                    <ul>
+                        <li>Jumanji (1995)</li>
+                        <li>Cheaper by the Dozen (2003)</li>
+                        <li>Beethoven (1992)</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Doc Hudson:</strong> Paul Newman
+                    <ul>
+                        <li>Butch Cassidy and the Sundance Kid (1969)</li>
+                        <li>The Sting (1973)</li>
+                        <li>Road to Perdition (2002)</li>
+                    </ul>
+                </li>
+            </ul>
         </article>
+        
 
-        <!-- Article Cinemes Recomanables -->
         <article id="cinemes" class="cinema-list">
             <h2>Cinemes Recomanables</h2>
+            <p>Donat que éss una pel·lícula del 2006 la pel·lícula actualment no aquesta disponible en cinemes però sí en plataformes de streaming com Disney +</p>
+            <p>Però aquí et deixo alguns cinemes pròxims on es va poder veure la pel·lícula</p>
             <ul>
-                <li><strong>Cinema ABC</strong> - Carrer Fictici, 20</li>
-                <li><strong>Cinema XYZ</strong> - Carrer Real, 15</li>
-                <li><strong>Cinema MNO</strong> - Carrer Nou, 5</li>
+                <li><strong>OCINE El Vendrell</strong>El Vendrell</li>
+                <li><strong>MCB Cinemas</strong>Calafell</li>
+                <li><strong>Cines Kinepolis</strong>Centro Comercial Splau</li>
             </ul>
         </article>
 
-        <!-- Secció Fotografies i Trailer -->
         <section id="fotografies">
             <h2>Fotografies i Trailer</h2>
             <video width="450" controls>
-                <source src="TRAILER.mp4" type="video/mp4">
+                <source src="/FOTOS_VIDEOS/TRAILER.mp4" type="video/mp4">
                 El teu navegador no suporta el vídeo.
             </video>
-            <img src="PELI.jpeg" alt="Escena de la pel·lícula" style="width: 500px;">
-            <img src="PELI2.jpg" alt="Escena de la pel·lícula" style="width: 500px;">
+            <img src="/FOTOS_VIDEOS/PELI.jpeg" alt="Escena de la pel·lícula" style="width: 500px;">
+            <img src="/FOTOS_VIDEOS/PELI2.jpg" alt="Escena de la pel·lícula" style="width: 500px;">
         </section>
 
-        <!-- Secció Opinió -->
         <section id="opinio">
             <h2>Opinió</h2>
             <p><strong>Opinió del crític:</strong> Cars és una pel·lícula una mica antiga del 2006 que dona gust veure-la el dia d'avui, crec que pot arribar a ensenyar valors molt importants als més petits i al seu torn entretenir-los no sols amb aquesta pel·lícula sinó amb les 2 següents. La recomano molt.</p>
-            <textarea rows="4" cols="50" placeholder="Escriu la teva opinió aquí..."></textarea>
+            
+            <h2>Formulari</h2>
+            <form action="https://webhook.site/a2bb6718-3887-4fb0-a973-a1cba21db317" method="post">
+                <label for="nom">Nom:</label>
+                <input type="text" id="nom" name="nom"><br><br>
+                <label for="email">Correu electrònic:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="valoracio">Valoració:</label>
+                <select id="valoracio" name="valoracio">
+                    <option value="excel·lent">Excel·lent</option>
+                    <option value="bo">Bo</option>
+                    <option value="regular">Regular</option>
+                    <option value="dolent">Dolent</option>
+                </select><br><br>
+                <textarea rows="4" cols="50" placeholder="Escriu la teva opinió aquí..."></textarea>
+                <br><br><label for="recomanacio">La recomanaries?</label>
+                <input type="checkbox" id="recomanacio" name="recomanacio"><br><br>
+                
+                <button type="submit">Enviar opinió</button>
+            </form>
         </section>
 
-        <!-- Secció Links i Altres -->
         <section id="links">
             <h2>Links i Altres</h2>
             <p><a href="http://www.disney.com" target="_blank">Web oficial de Disney</a></p>
@@ -144,7 +214,6 @@
 
     </main>
 
-    <!-- Footer -->
     <footer>
         <p>Víctor Franco Girón / Marc Del Barco Valls</p>
     </footer>
